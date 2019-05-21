@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script type="text/javascript" src="../js/script.js"></script>
+  </head>
+  <body onload="start()">
+    <div id="nav-div">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+    </div>
+    <div id="main-div">
+      <div id="title-div">
+          <h1>Post It</h1>
+      </div>
+      <div id="textbox-div">
+        <input id="text-box" type="text" name="textbox" value="">
+      </div>
+      <div id="button-div">
+        <button type="button" name="tweet" onclick="post()">Post</button>
+        <button type="button" name="clear" onclick="clearAll()">Clear</button>
+      </div>
+      <div id="list-div">
+        <h2>Posts</h2>
+        <ul id="list"></ul>
+      </div>
+    </div>
+  </body>
+</html>
