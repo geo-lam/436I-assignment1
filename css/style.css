@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  background-color: #F6F3CE
+}
+h1 {
+  font-size: 50px;
+  margin: 15px;
+}
+#text-box {
+  width: 400px;
+  border-style: solid;
+  border-radius: 15px 15px 15px 15px;
+  padding: 8px;
+}
+button {
+  width: 100px;
+  border-style: solid;
+  border-radius: 5px 5px 5px 5px;
+  border-color: black;
+  margin: 15px;
+  background-color: white;
+}
